@@ -1,0 +1,22 @@
+--cpu Cortex-M4.fp
+".\objects\madgwickahrs.o"
+".\objects\quaternion.o"
+".\objects\tm_stm32f4_i2c.o"
+".\objects\stm32f4xx_gpio.o"
+".\objects\stm32f4xx_rcc.o"
+".\objects\stm32f4xx_i2c.o"
+".\objects\tm_stm32f4_disco.o"
+".\objects\stm32f4xx_exti.o"
+".\objects\misc.o"
+".\objects\stm32f4xx_it.o"
+".\objects\main.o"
+".\objects\startup_stm32f40_41xxx.o"
+".\objects\system_stm32f4xx.o"
+".\objects\tm_stm32f4_pwm.o"
+".\objects\tm_stm32f4_delay.o"
+".\objects\stm32f4xx_tim.o"
+".\objects\tm_stm32f4_timer_properties.o"
+".\objects\pid.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\test_accel_usb.map" -o .\Objects\test_accel_usb.axf
